@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+}
+
+#app {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#amount {
+  background-color: #edf4f5;
+  border: none;
+  padding: 5px 10px;
+  font-family: "Space Mono", monospace;
+}
+
+.tipButton {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  text-align: left;
+  color: white;
+}
+
+.tipButton:hover,
+.tipButton:focus {
+  background-color: hsl(185, 41%, 84%);
+  color: black;
+}
+
+#tipamount {
+  text-align: right;
+  color: white;
+}
+
+#total {
+  text-align: right;
+  color: white;
+}
+
+#reset {
+  background-color: hsl(185, 41%, 84%);
+  padding: 2px 50px;
+  border: none;
+  border-radius: 5px;
+  font-family: "space Mono", monospace;
+  cursor: pointer;
+}
+
+#totals {
+  background-color: hsl(183, 100%, 15%);
+  padding: 20px;
+  border-radius: 10px;
+}
